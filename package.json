@@ -1,0 +1,23 @@
+{
+  "name": "v10",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p ${PORT:=3000}"
+  },
+  "dependencies": {
+    "i18next": "latest",
+    "i18next-http-backend": "latest",
+    "next": "latest",
+    "next-i18next": "latest",
+    "react-i18next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "prop-types": "15.8.1"
+  }
+}
